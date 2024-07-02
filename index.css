@@ -1,0 +1,73 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+.container{
+ display: flex;
+ flex-direction: row;
+ padding: 30px; 
+background-color: rgb(1, 15, 43);
+color: white;
+justify-content: space-between;
+}
+.slackProfilePicture{
+ display: flex;
+ justify-content: center;
+}
+h1{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+h2, div, footer{
+  font-family: 'Poppins', sans-serif;
+}
+.follow{
+ text-align: center;
+}
+.content{
+ background-color: rgb(1, 15, 43);
+ color: white;
+ padding: 10px;
+}
+p{
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ line-break: normal;
+}
+.folder{
+ display: flex;
+ padding: 30px;
+ flex-direction: row;
+}
+footer{
+ background-color: black;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ color: white;
+}
+.text{
+ padding-right: 20px;
+ margin-left: 10px;
+}
+.down{
+ padding: 30px;
+}
+ 
+@media only screen and (max-width: 600px) {
+
+ .folder{
+  display: block;
+ }
+ .container{
+  display: block;
+ }
+
+ h1{
+  align-items: center;
+ }
+ 
+}
